@@ -1,0 +1,13 @@
+.w3-top {
+  position:fixed;
+  width:100%;
+  z-index:1;
+}
+.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before {
+  content:"";
+  display:table;
+  clear:both;
+}
+.w3-padding{
+  padding:8px 16px!important
+}
