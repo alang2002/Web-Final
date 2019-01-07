@@ -1,31 +1,24 @@
 body, html {
   height: 100%;
 }
-.w3-top {
+.top {
   position:relative;
   width:100%;
   z-index:1;
-}
-.w3-top {
   top:0;
 }
-.w3-padding {
-  padding:1px!important;
-}
-.w3-black,.w3-hover-black:hover {
+.black,.hover-black:hover {
   color:#fff!important;
   background-color:#000!important
 }
-.w3-col.s3 {
+.navrow {
   width:16%;
-  padding-left: 3px;
-  align-content: center;
+  padding-left:3px;
   display:inline-block;
 }
-.w3-btn,.w3-button {
+.button {
   border:none;
   display:inline-block;
-  padding:8px 16px;
   vertical-align:middle;
   overflow:hidden;
   text-decoration:none;
@@ -34,23 +27,17 @@ body, html {
   text-align:center;
   cursor:pointer;
   white-space:nowrap;
+  width:100%;
+  padding:8px;
+  text-align:center;
 }
-.w3-button,.w3-bar-block .w3-dropdown-click .w3-button {
-  width:99%;
-  padding: 8px;
-  text-align: center;
-}
-.w3-button:hover {
+.button:hover {
   color:#000!important;
   background-color:#ccc!important;
 }
-.w3-black,.w3-hover-black:hover {
-  color:#fff!important;
-  background-color:#000!important;
-}
 .footer {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  border-top: 2px solid;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:20px;
+  border-top:2px solid;
 }
