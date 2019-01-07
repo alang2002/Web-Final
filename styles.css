@@ -1,13 +1,56 @@
+body, html {
+  height: 100%;
+}
 .w3-top {
-  position:fixed;
+  position:relative;
   width:100%;
   z-index:1;
 }
-.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before {
-  content:"";
-  display:table;
-  clear:both;
+.w3-top {
+  top:0;
 }
-.w3-padding{
-  padding:8px 16px!important
+.w3-padding {
+  padding:1px!important;
+}
+.w3-black,.w3-hover-black:hover {
+  color:#fff!important;
+  background-color:#000!important
+}
+.w3-col.s3 {
+  width:16%;
+  padding-left: 3px;
+  align-content: center;
+  display:inline-block;
+}
+.w3-btn,.w3-button {
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+}
+.w3-button,.w3-bar-block .w3-dropdown-click .w3-button {
+  width:99%;
+  padding: 8px;
+  text-align: center;
+}
+.w3-button:hover {
+  color:#000!important;
+  background-color:#ccc!important;
+}
+.w3-black,.w3-hover-black:hover {
+  color:#fff!important;
+  background-color:#000!important;
+}
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-top: 2px solid;
 }
