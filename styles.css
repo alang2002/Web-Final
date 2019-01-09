@@ -1,15 +1,44 @@
-body, html {
-  height: 100%;
+/* Importing all fonts here */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Titillium+Web|Charm|Staatliches');
+/* All html element css goes here */
+html {
+  background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgba(110, 214, 205, .60), rgba(255, 255, 255, 0));
 }
+body {
+  font-family:'Josefin Sans';
+}
+table, tr, th, td {
+  border: 2px solid #000;
+  border-collapse:collapse;
+  width: 35%;
+  background-color:#e65a26;
+  color:#fff;
+}
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+th, td {
+  text-align: center;
+}
+th {
+  font-size: 3em;
+  font-family:'Titillium Web';
+}
+td {
+  font-size: 1.5em;
+  font-family:'Poppins';
+}
+/* All css classes go here */
 .top {
   position:relative;
   width:100%;
   z-index:1;
   top:0;
 }
-.black,.hover-black:hover {
+.orange,.hover-orange:hover {
   color:#fff!important;
-  background-color:#000!important
+  background-color:#e65a26!important
 }
 .navrow {
   width:16%;
@@ -20,24 +49,46 @@ body, html {
   border:none;
   display:inline-block;
   vertical-align:middle;
-  overflow:hidden;
+  overflow:visible;
   text-decoration:none;
   color:inherit;
   background-color:inherit;
   text-align:center;
   cursor:pointer;
-  white-space:nowrap;
+  white-space:normal;
   width:100%;
   padding:8px;
   text-align:center;
+  font-weight: bold;
 }
 .button:hover {
   color:#000!important;
-  background-color:#ccc!important;
+  background-color:#ffffff!important;
 }
 .footer {
   text-align:center;
   padding-top:10px;
   padding-bottom:20px;
-  border-top:2px solid;
+  border-top:2px solid #1ab090;
+  width:100%;
+}
+.page-header {
+  text-align:center;
+  font-size:6em;
+  height:120px;
+  width:850px;
+  background-color:#e65a26;
+  color:#ffffff;
+  margin-left:300px;
+  font-family:'Staatliches';
+}
+.subheader {
+  text-align: center;
+  margin-bottom: 100px;
+  font-family:'Charm';
+  font-size: 2em;
+}
+.smaller-image {
+  width: 25%;
+  height: 25%;
 }
