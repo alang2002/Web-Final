@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Poppins|Titillium+Web|Charm|Staatliches');
 /* All html element css goes here */
 html {
-  background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgba(110, 214, 205, .60), rgba(255, 255, 255, 0));
+  background-image:linear-gradient(to right, rgba(255, 255, 255, 0), rgba(110, 214, 205, .80), rgba(255, 255, 255, 0));
 }
 body {
   font-family:'Josefin Sans';
+}
+p {
+  font-size: 17px;
 }
 table, tr, th, td {
   border: 2px solid #000;
@@ -91,4 +94,14 @@ td {
 .smaller-image {
   width: 25%;
   height: 25%;
+}
+.page-header-big {
+  text-align:center;
+  font-size:6em;
+  height:240px;
+  width:850px;
+  background-color:#e65a26;
+  color:#ffffff;
+  margin-left:300px;
+  font-family:'Staatliches';
 }
