@@ -33,6 +33,13 @@
     <p>After finishing this web design course, I feel confident in my abilities to code in HTML and CSS. They are both a bit basic, but they can be used for very creative purposes and make up almost all of the web we use today.</p>
     <p>HTML is easy because it uses a simple hierarchy system, but CSS is more fun because it allows you to stylize pages and keep all the code in one file for easy editing.</p>
     <p>If I had to choose one web language to learn though, I would definitely pick Javascript. It seems similar to other OOP programming languages I've learned, and there is a lot of scripts and such that could be written that would be a lot of fun. Plus, I'd love to try and make a game in a web browser.</p>
-    <footer class="footer"><i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/9/2019</i></footer>
+    <footer class="footer">
+      <i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/15/2019</i>
+      <p id="time"></p>
+    </footer>
+    <!-- Gets current time and date -->
+    <script>
+      document.getElementById("time").innerHTML = new Date().toLocaleString();
+    </script>
   </body>
 </html>

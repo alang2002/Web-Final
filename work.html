@@ -42,6 +42,13 @@
     <h2>Some other projects I worked on:</h2>
     <p><a href="https://alang2002.github.io/Recipes-Page/">Recipes</a></p>
     <p><a href="https://alang2002.github.io/Game-Page/">Gaming Page</a></p>
-    <footer class="footer"><i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/14/2019</i></footer>
+    <footer class="footer">
+      <i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/15/2019</i>
+      <p id="time"></p>
+    </footer>
+    <!-- Gets current time and date -->
+    <script>
+      document.getElementById("time").innerHTML = new Date().toLocaleString();
+    </script>
   </body>
 </html>

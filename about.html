@@ -30,7 +30,6 @@
       </div>
     </div>
     <h1 class="page-header">About Me</h1>
-    <h2>insert a picture of me here</h2>
     <p>Hello! My name is Aaron Lang. I'm a junior at Davenport West Highschool. I'm 17 years old at the time of writing this.</p>
     <p>Some of my hobbies include:</p>
     <ul>
@@ -73,6 +72,13 @@
     <p>One of my first and favorite game of all time is the original Halo: Combat Evolved for the Xbox.</p>
     <img src="images/halo.jpg" alt="Halo CE game cover">
     <p><i>Image from: <a href=http://halo.wikia.com/wiki/File:Halo_Combat_Evolved_(Xbox)_Platinum_Hits_box_art.JPG>Halo Wiki</a></i></p>
-    <footer class="footer"><i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/14/2019</i></footer>
+    <footer class="footer">
+      <i>Aaron Lang &#9679; Currently Attending: West High School &#9679; Current Grade: Junior (11) &#9679; Last Edited: 1/15/2019</i>
+      <p id="time"></p>
+    </footer>
+    <!-- Gets current time and date -->
+    <script>
+      document.getElementById("time").innerHTML = new Date().toLocaleString();
+    </script>
   </body>
 </html>
